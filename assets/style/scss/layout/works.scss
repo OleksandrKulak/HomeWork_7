@@ -1,0 +1,46 @@
+.works {
+	.main-btn {
+		padding: 15px 27px;
+	}
+
+	.more-project{
+		margin-top: 4px;
+		position: relative;
+		font-family: 'Roboto', sans-serif;
+		font-size: 14px;
+			font-weight: 300;
+			letter-spacing: 0.7px;
+			color: #413d4b;
+
+			&:after {
+				content: '';
+			position: absolute;
+			display: block;
+			width: 8px;
+			height: 13px;
+			top: 0;
+			right: -15px;
+			cursor: pointer;
+			background: no-repeat center/cover url(../../img/right2x.png);
+			}
+	}
+
+	.pictures-block {
+		margin: 0 auto 70px;
+		max-width: 1600px;
+		display: grid;
+		grid-template-columns: repeat(6, 1fr);
+	    grid-template-rows: repeat(2, 1fr);
+
+	    .picture-cover-item {
+	    	width: 267px;
+	    	height: 200px;
+
+	    	img {
+	    		width: auto;
+	    		height: 100%;
+	    	}
+	    }
+
+	}
+}

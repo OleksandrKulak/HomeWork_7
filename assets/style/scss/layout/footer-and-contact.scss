@@ -1,0 +1,149 @@
+.footer-and-contact {
+	background: linear-gradient(to top, #09052fd6, #20055bb0),url(../../img/footere@2x.png) center/cover no-repeat;
+
+	.title-contact{
+		margin-bottom: 42px;
+		font-family: 'Roboto', sans-serif;
+		font-size: 15px;
+  		font-weight: 900;
+  		line-height: 1.73;
+  		text-transform: uppercase;
+  		letter-spacing: 0.75px;
+  		color: #fff;
+	}
+
+	.content-flex-footer {
+		display: flex;
+		margin-bottom: 80px;
+
+		.block-description {
+			.logo {
+				margin-bottom: 27px;
+			}
+
+			.footer-description {
+				font-family: 'Roboto', sans-serif;
+				font-size: 14px;
+				font-weight: 300;
+				line-height: 1.86;
+  				letter-spacing: 0.35px;
+  				color: #fff;
+			}
+		}
+
+		.block-our-contact {
+			margin: 0 66px 0 36px;
+			font-family: 'Roboto', sans-serif;
+			font-size: 14px;
+			font-weight: 300;
+			line-height: 1.86;
+			letter-spacing: 0.35px;
+			color: #fff;
+
+			.location {
+				position:relative;
+				margin: 0 0 20px 30px;
+
+				&:before {
+					content: "";
+				    display: block;
+				    width: 14px;
+				    height: 19px;
+				    position: absolute;
+				    left: -30px;
+				    transform: translateY(20%);
+				    cursor: pointer;
+				    background: no-repeat center/cover url(../../img/location.png);
+				}
+			}
+
+			.phone {
+				margin-left: 30px;
+
+				&:before {
+					content: "";
+				    display: block;
+				    width: 17px;
+				    height: 17px;
+				    position: absolute;
+				    transform: translateY(20%);
+				    cursor: pointer;
+				    background: no-repeat center/cover url(../../img/phone.png);
+				}
+			}
+		}
+
+		.block-connection {
+			.post {
+				margin-bottom: 30px;
+				display: flex;
+				gap: 10px;
+
+				.connection {
+					padding: 0 17px 0 26px;
+					width: 170px;
+					font-family: 'Roboto', sans-serif;
+					font-size: 14px;
+					font-weight: 300;
+					letter-spacing: 0.7px;
+					color: rgba(255, 255, 255, 0.75);
+					border: solid 1px #fff;
+					background-color: #ffffff00;
+				}
+
+				.subscription-btn {
+					width: 70px;
+					height: 45px;
+					cursor: pointer;
+					background: no-repeat center/cover url(../../img/btn@2x.png);
+				}
+			}
+
+			.social {
+				display: flex;
+				gap: 8px;
+
+				.social-logo {
+					width: 35px;
+					height: 35px;
+					text-align: center;
+					border: 1px solid white;
+					border-radius: 50%;
+					color: white;
+
+					i {
+						padding: 25% 0;
+					}
+				}
+			}
+		}
+	}
+
+	.main-footer {
+		display: flex;
+		justify-content: space-between;
+
+		.helps-list {
+			display: flex;
+			gap: 35px;
+
+			.help-item {
+				font-family: 'Roboto', sans-serif;
+				font-size: 14px;
+				line-height: 1.85;
+				letter-spacing: 0.4;
+				text-transform: uppercase;
+				color: #fff;
+			}
+		}
+
+		.copyright {
+			font-family: 'Roboto', sans-serif;
+			font-size: 14px;
+			font-weight: 200;
+			line-height: 1.85;
+			letter-spacing: 0.4;
+			color: #fff;
+		}
+	}
+}

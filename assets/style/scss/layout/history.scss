@@ -1,0 +1,40 @@
+.history {
+	.content-history {
+		display: flex;
+		margin-left: 50px;
+		justify-content: space-between;
+		gap: 85px;
+
+		.logo-cover {
+			width: 30%;
+			height: 230px;
+
+			img {
+				width: 100%;
+    			height: auto;
+			}
+		}
+
+		.history-block {
+			width: 60%;
+
+			.title {
+				margin-bottom: 28px;
+			}
+
+			.history-description {
+				margin-bottom: 30px;
+				font-family: 'Roboto', sans-serif;
+				font-size: 14px;
+				font-weight: 300;
+				line-height: 1.6;
+  				letter-spacing: 0.4px;
+  				color: rgba(65, 61, 75, 0.75);
+			}
+		}
+	}
+
+	.main-btn {
+		margin-bottom: 70px;
+	}
+}
