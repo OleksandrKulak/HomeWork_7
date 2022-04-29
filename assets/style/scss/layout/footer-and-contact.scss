@@ -82,13 +82,14 @@
 				.connection {
 					padding: 0 17px 0 26px;
 					width: 170px;
+					outline: none;
 					font-family: 'Roboto', sans-serif;
 					font-size: 14px;
 					font-weight: 300;
 					letter-spacing: 0.7px;
 					color: rgba(255, 255, 255, 0.75);
 					border: solid 1px #fff;
-					background-color: #ffffff00;
+					background-color: transparent;
 				}
 
 				.subscription-btn {

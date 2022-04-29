@@ -5,9 +5,10 @@ section {
 }
 
 footer {
+	padding: 70px 0;
 }
 
-.conteiner {
+.container {
 	margin: 0 auto;
 	padding: 0 15px;
 	width: 940px;
@@ -16,6 +17,7 @@ footer {
 .logo {
 	width: 128px;
 	height: 50px;
+	font-size: 0;
 
 	img {
 		height: auto;
@@ -30,6 +32,7 @@ footer {
 	padding: 15px 16px;
 	font-family: 'Hammersmith One', sans-serif;
 	font-size: 16px;
+	line-height: 0.5;
 	text-transform: uppercase;
 	color: #00e0d0;
 	cursor: pointer;

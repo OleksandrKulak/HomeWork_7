@@ -7,7 +7,24 @@
 	    .service-item {
 	    	padding: 30px 23px 40px 33px;
 	    	text-align: center;
-	    	border: 1px solid #0000000f;
+	    	border-right: 1px solid rgba(0, 0, 0, 0.2);
+	    	border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+
+	    	&:nth-child(3n) {
+	    		border-right: none;
+	    	}
+
+	    	&:nth-child(4n) {
+	    		border-bottom: none;
+	    	}
+
+	    	&:nth-child(5n) {
+	    		border-bottom: none;
+	    	}
+
+	    	&:nth-child(6n) {
+	    		border-bottom: none;
+	    	}
 
 	    	.service-logo {
 	    		margin: 0 auto 35px;

@@ -50,31 +50,14 @@
 	.slider-author {
 		display: flex;
 		justify-content: center;
+		align-items: center;
 		gap: 30px;
 
 		.next, .prev {
-			position: relative;
-			font-size: 0;
-			border: none;
+			font-size: 20px;
+			color: #9f9f9f;
+			background-color: transparent;
 			cursor: pointer;
-			background-color: rgb(250 250 250 / 0%);
-			
-			&:after {
-				content: '';
-				position: absolute;
-				width: 11px;
-				height: 21px;
-				background: no-repeat center/cover url(../../img/forward@2x.png);
-			}
-		}
-
-		.prev {
-			top: 40px;
-			transform: rotate(180deg);
-		}
-
-		.next {
-			top: 20px;
 		}
 	
 		.author-list {

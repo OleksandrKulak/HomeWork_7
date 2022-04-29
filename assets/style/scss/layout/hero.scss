@@ -3,7 +3,7 @@
   	height: 100vh;
   	background: linear-gradient(to top, #09052fd6, #20055bb0),url(../../img/put-your-image-here@2x.png) center/cover no-repeat;
 
-  	.hero-heder {
+  	.hero-header {
   		padding: 15px 0 160px;
   		display: flex;
   		justify-content: space-between;
@@ -64,5 +64,28 @@
   			letter-spacing: 0.7px;
   			color: #fff;
   		}
+  	}
+
+  	.main-btn {
+  		margin-bottom: 127px;
+  	}
+
+  	.radio-btn {
+  		display: flex;
+  		justify-content: center;
+
+  		.radio-page {
+  			width: 10px;
+  			height: 10px;
+  			appearance: none;
+  			border-radius: 50%;
+  			border: solid 1px #c2c2c2;
+  			cursor: pointer;
+  		}
+
+  		.radio-page:checked {
+		  	background-color: #00e0d0;
+			
+		}
   	}
 }
