@@ -245,9 +245,24 @@ footer {
   text-align: center;
   background: linear-gradient(to top, #09052fd6, #20055bb0), url(../../img/put-city.png) center/cover no-repeat;
 }
-.video-block-history iframe {
+.video-block-history .video-story {
+  position: relative;
+}
+.video-block-history .video-story iframe {
   height: 100vh;
   width: 100%;
+}
+.video-block-history .video-story .title-button {
+  position: absolute;
+  top: 60%;
+  right: 40%;
+  left: 40%;
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  font-weight: 900;
+  letter-spacing: 0.8px;
+  text-transform: uppercase;
+  color: #fff;
 }
 
 .expertise .services-list {
