@@ -225,6 +225,7 @@ footer {
 }
 .history .content-history .history-block .title {
   margin-bottom: 28px;
+  text-align: left;
 }
 .history .content-history .history-block .history-description {
   margin-bottom: 30px;
@@ -255,8 +256,8 @@ footer {
 .video-block-history .video-story .title-button {
   position: absolute;
   top: 60%;
-  right: 40%;
-  left: 40%;
+  left: 50%;
+  transform: translateX(-50%);
   font-family: "Roboto", sans-serif;
   font-size: 16px;
   font-weight: 900;
@@ -436,6 +437,7 @@ footer {
   height: 26px;
   top: -45px;
   left: 50%;
+  transform: translateX(-50%);
   background: no-repeat center/cover url(../../img/invalid@2x.png);
 }
 .quote .quote-block .quote-author {
@@ -502,9 +504,6 @@ footer {
 .feedback-and-our-clients .content-flex .your-data .title-our-commercial-clients {
   margin-bottom: 30px;
   text-align: left;
-}
-.feedback-and-our-clients .content-flex .your-data .send-contact {
-  display: block;
 }
 .feedback-and-our-clients .content-flex .your-data .send-contact .field {
   margin-bottom: 21px;
@@ -639,39 +638,33 @@ footer {
   gap: 8px;
 }
 .footer-and-contact .content-flex-footer .block-connection .social .social-logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   width: 35px;
   height: 35px;
-  text-align: center;
   border: 1px solid white;
   border-radius: 50%;
   color: white;
 }
-.footer-and-contact .content-flex-footer .block-connection .social .social-logo i {
-  padding: 25% 0;
-}
 .footer-and-contact .main-footer {
   display: flex;
   justify-content: space-between;
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  line-height: 1.85;
+  letter-spacing: 0.4;
+  color: #fff;
 }
 .footer-and-contact .main-footer .helps-list {
   display: flex;
   gap: 35px;
 }
 .footer-and-contact .main-footer .helps-list .help-item {
-  font-family: "Roboto", sans-serif;
-  font-size: 14px;
-  line-height: 1.85;
-  letter-spacing: 0.4;
   text-transform: uppercase;
-  color: #fff;
 }
 .footer-and-contact .main-footer .copyright {
-  font-family: "Roboto", sans-serif;
-  font-size: 14px;
   font-weight: 200;
-  line-height: 1.85;
-  letter-spacing: 0.4;
-  color: #fff;
 }
 
 /*# sourceMappingURL=style.css.map */
